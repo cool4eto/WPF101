@@ -23,7 +23,9 @@ namespace DataBinding
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = this;
+            Binding binding = new Binding("Text");
+            binding.Source = txtValue;
+            lblValue.SetBinding(TextBlock.TextProperty, binding);
         }
     }
 }
