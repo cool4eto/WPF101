@@ -18,5 +18,13 @@
         <Button Name="btnMessageBoxWithResponse" Click="btnMessageBoxWithResponse_Click">MessageBox with response</Button>
         <Button Name="btnMessageBoxWithIcon" Click="btnMessageBoxWithIcon_Click">MessageBox with icon</Button>
         <Button Name="btnMessageBoxWithDefaultChoice" Click="btnMessageBoxWithDefaultChoice_Click">MessageBox with default choice</Button>
+        <Button Name="btnOpenFile" Click="btnOpenFile_Click">Open file</Button>
+        <Button Name="btnOpenFiles" Click="btnOpenFiles_Click">Open files</Button>
+        <Button Name="btnSaveFile" Click="btnSaveFile_Click">Save file</Button>
+        <TextBox Name="txtEditor"/>
+
+        <TextBlock>Hello, world. My name is:</TextBlock>
+        <TextBlock Name="lblName" Margin="0,10" TextAlignment="Center" FontWeight="Bold">[No name entered]</TextBlock>
+        <Button Name="btnEnterName" Click="btnEnterName_Click">Enter name...</Button>
     </StackPanel>
 </Window>
