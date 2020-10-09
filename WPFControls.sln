@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControl", "TabControl\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListControls", "ListControls\ListControls.csproj", "{4E6FB9A1-910A-44ED-938B-2B49463C3207}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewControl", "ListViewControl\ListViewControl.csproj", "{CDC76474-7CDF-4033-9A3A-C382A5B35413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewControl", "TreeViewControl\TreeViewControl.csproj", "{2B62CCA7-CE5D-4FBC-B421-C68BB07799E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridControl", "DataGridControl\DataGridControl.csproj", "{6CD6C495-6988-4BCF-ADB5-09ECAE773FF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +87,18 @@ Global
 		{4E6FB9A1-910A-44ED-938B-2B49463C3207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E6FB9A1-910A-44ED-938B-2B49463C3207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E6FB9A1-910A-44ED-938B-2B49463C3207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC76474-7CDF-4033-9A3A-C382A5B35413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC76474-7CDF-4033-9A3A-C382A5B35413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC76474-7CDF-4033-9A3A-C382A5B35413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC76474-7CDF-4033-9A3A-C382A5B35413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B62CCA7-CE5D-4FBC-B421-C68BB07799E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B62CCA7-CE5D-4FBC-B421-C68BB07799E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B62CCA7-CE5D-4FBC-B421-C68BB07799E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B62CCA7-CE5D-4FBC-B421-C68BB07799E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD6C495-6988-4BCF-ADB5-09ECAE773FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD6C495-6988-4BCF-ADB5-09ECAE773FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD6C495-6988-4BCF-ADB5-09ECAE773FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD6C495-6988-4BCF-ADB5-09ECAE773FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
